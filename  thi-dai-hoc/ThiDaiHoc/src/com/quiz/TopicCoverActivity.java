@@ -4,7 +4,6 @@ import java.util.Collection;
 import java.util.List;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -25,7 +24,7 @@ import com.quiz.entities.Topic;
 import com.quiz.utils.ConverterHelper;
 
 public class TopicCoverActivity extends Activity {
-	private ProgressDialog _progressDialog;
+	//private ProgressDialog _progressDialog;
 	private TextView txtTopic;
 	private TextView txtNumberOfQues;
 	private TextView txtDuration;
@@ -149,11 +148,11 @@ public class TopicCoverActivity extends Activity {
 	}
 	// cac phuong thuc onClick
 	public void onClickBeginTest(View view) {
-		_progressDialog = new ProgressDialog(TopicCoverActivity.this);
-		_progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-		_progressDialog.setMessage("Đang nạp câu hỏi...");
-		//_progressDialog.setCancelable(false);
-		_progressDialog.show();
+//		_progressDialog = new ProgressDialog(TopicCoverActivity.this);
+//		_progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+//		_progressDialog.setMessage("Đang nạp câu hỏi...");
+//		//_progressDialog.setCancelable(false);
+//		_progressDialog.show();
 		Log.i("TopicCoverActivity - onClickBeginTest()", "End");
 		Intent itent = new Intent(TopicCoverActivity.this,
 				QuestionTest.class);
