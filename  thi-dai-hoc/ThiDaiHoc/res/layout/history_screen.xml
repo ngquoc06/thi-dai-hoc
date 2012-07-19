@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+    
+    <!-- Top layout -->
+    <RelativeLayout 
+        android:id="@+id/history_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+            
+		    <TextView 
+		        android:id="@+id/history_title"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/history"
+		        android:textSize="22dp"
+		        android:textStyle="bold"
+		        android:textColor="@color/white"
+		        android:gravity="center"
+		        android:layout_centerInParent="true"
+		        />
+    </RelativeLayout>
+    <!-- End Top layout -->
+    
+    <!-- Content layout -->
+		<Button 
+	        android:id="@+id/history_clear_history"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/clear_history"
+		    android:background="@drawable/btn_clear_history"
+		    android:textColor="@color/white"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentBottom="true"
+	    	/>
+        <ExpandableListView
+            android:id="@+id/history_expandablelist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/history_top_layout"
+            android:layout_above="@id/history_clear_history" >
+                
+       	</ExpandableListView>
+    
+    <!-- End Content layout -->
+
+</RelativeLayout>

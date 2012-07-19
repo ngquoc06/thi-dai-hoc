@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Thi Đại Học</string>
+    <string name="about">Giới thiệu</string>
+    <string name="empty">Không có dữ liệu</string>
+    <string name="help">Trợ giúp</string>
+    <string name="timer">Bộ tính giờ</string>
+    <string name="number_of_questions">Số lượng câu hỏi</string>
+    <string name="seconds_per_question">Thời lượng cho mỗi câu(giây)</string>
+    <string name="set_default">Mặc định</string>
+    <string name="clear_history">Xóa lịch sử</string>
+    <string name="settings">Cấu hình</string>
+    <string name="topic_cover">Thông tin chủ đề</string>
+    <string name="username">Thí sinh</string>
+    <string name="questions">Câu hỏi</string>
+    <string name="on">Mở</string>
+    <string name="off">Tắt</string>
+    <string name="history">Lịch sử</string>
+    <string name="title">Tiêu đề</string>
+    <string name="back_to_home">Quay lại màn hình chính</string>
+    <string name="topName">Thi Đại Học</string>
+    <string name="infoButton">Quay lại</string>
+    <string name="setting">Cấu hình</string>
+    <string name="btnback">Quay lại</string>
+    <string name="hint">Cấu hình</string>
+    <string name="nam_app">Cấu hình</string>
+    <string name="textAbout">Giới thiệu</string>
+    <string name="textReview">Xem lại</string>
+    <string name="result_text_phanTram">Điểm số </string>
+    <string name="topic">Môn thi </string>
+    <string name="duration">Thời lượng </string>
+    <string name="result">Kết quả </string>
+    <string name="test_again">Thi lại</string>
+    <string name="score">Điểm số</string>
+    <string name="unanswer">Chưa trả lời </string>
+    <string name="taken">Ngày thi </string>
+    <string name="pass_score">Điểm đậu </string>
+    <string name="passed">Đạt</string>
+    <string name="failed">Chưa đậu</string>
+    <string name="question_finish">Nộp bài</string>
+    <string name="home">Home</string>
+    <string name="cancel">Hủy thao tác</string>
+    <string name="correct">Đúng</string>
+    <string name="total">Kết quả</string>
+    <string name="begin_test">Bắt đầu kiểm tra</string>
+    <string name="retest">Làm lại</string>
+    <string name="review">Xem đáp án</string>
+    <string name="quit_confirm">Thoát chương trình?</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="finish_confirm">Nộp bài và kết thúc?</string>
+    <string name="finish_time_up">Hết giờ</string>
+    <string name="usernameText">Tên </string>
+    <string name="usernameHint">Nhập tên</string>
+    <string name="usernameEdit">(        <![CDATA[<]]>
+= Sửa)</string>
+	<string name="splash_textabout">Được phát triển bởi nhóm Lê Thành Huy</string>
+    <!-- About Infor -->
+    <string name="version">Version 1.0</string>
+    <string name="description">Phần mềm trắc nghiệm Thi Đại Học</string>
+    <string name="email">Email (Paypal): thanhhuy27@gmail.com</string>
+    <string name="org">Nhóm Sinh viên trường Đại học Cần Thơ - Vietnam</string>
+    <string name="authors">Lê Thành Huy \nChung Hoàng Long \nNguyễn Thanh Hòa</string>
+    <string name="donate_title">Nhóm chuyên làm các app miễn phí, nhưng cũng rất mong sự hỗ trợ tài chính của quý vị.</string>
+    <!-- end About -->
+
+
+    <!-- Phan danh cho Message Dialog -->
+    <string name="msg_timer_up">Sắp hết giời gian làm bài</string>
+    <string name="msg_update_yes">Thư viện câu hỏi vừa được cập nhựt</string>
+    <string name="msg_no_internet">Không thể kết nối tới server.\nVui lòng kiểm tra kết nối internet</string>
+    <string name="msg_empty_history">Hiện tại không có mục nào trong lịch sử</string>
+    <string name="msq_empty_topic">Tạm thời không có dữ liệu cho chủ đề này</string>
+    <!-- Topic -->
+    <string name="topic_ly_khoiA_2012">Khối A 2012</string>
+    <string name="topic_sinh_khoiB_2012">Khối B 2012</string>
+	<string name="topic_hoa_khoiA_2012">Khối A 2012</string>
+	<string name="topic_english_khoiA1_2012">Khối A1 2012</string>  
+    <!-- loading -->
+    <string name="topic_progress"> Đang nạp câu hỏi\.\.\. </string>
+    <string name="question_sureexit">Quay lại màn hình chính?</string>
+    <string name="topic_start">Bắt đầu</string>
+    <string name="topic_progressBar_messenger">Đang nạp dữ liệu\.\.\.</string>
+
+    <!-- Help infor -->
+    <string name="help_content_muc_dich">
+		Mục Đích Phần Mềm Thi Đại Học\n\n
+		Nhằm giúp các bạn học sinh có điều kiện luyện thi đại học mọi lúc mọi nơi trong thời gian rảnh ngay trên chiếc điện thoại của mình\.
+		Nhớm phát triển(xem chi tiết bên phần giới thiệu) đã cho ra đời phần mềm Thi Đại Học\.\n
+		Thi Đại Học là phần mềm rất hữu ích, với các tính năng trắc nghiệm tiện lợi giúp học sinh làm quen với các bài thi trắc nghiệm có tính thời gian làm bài
+		và tính điểm ngay sau mỗi lần làm bài \. Đồng thời Thi Đại Học giúp học sinh củng cố kiến thức đã có và mở rộng sau mỗi lần làm bài\.
+	</string>
+    <string name="help_content_chuc_nang">
+		\n\nCác Chức Năng Chính\n\n
+        1.&#x2003;Luyện kĩ năng kiểm tra theo từng chủ đề\.\n
+        2.&#x2003;Xem lịch sử kiểm tra và có thể kiểm tra lại các bài kiểm đó\.\n
+        3.&#x2003;Xem lại hoặc kiểm tra lại bộ đề vừa kiểm tra\.\n
+        4.&#x2003;Cài đặt cấu hình ứng dụng\.\n
+        5.&#x2003;Trợ giúp về thông tin ứng dụng\. \n
+        6.&#x2003;Giới thiệu nhóm phát triển ứng dụng\.\n
+    </string>
+    <string name="help_content_bo_de">        
+		\n\n\nCác Bộ Đề Thi \n\n
+		\nPhần mềm luyện Thi Đại Học trang nghiệm đại học bao gồm: Vật Lý, Hóa Học, Sinh Học, Tiếng Anh cho các năm trước đây.
+		Đồng thời cũng cung cấp các câu hỏi trắc nghiệm mở rộng từ nhiều nguồn đề khác nhau giúp người thi có nhiều bộ đề mới\.
+		\nHiện tại, phần mềm Thi Đại Học được trang bị các bộ đề sau:
+        1. Môn Vật Lý khối A và khối A1 năm 2012\.\n
+        2. Môn Sinh Học khối B năm 2012\.\n
+        3. Môn Hóa Học khối A năm 2012\.\n
+        4. Môn Tiếng Anh khối A1 năm 2012 \.\n
+		
+	\n Trong tương lai, chúng tôi sẽ cập nhật thêm nhiều bộ đề thi mẫu nhằm giúp các bạn ông luyện tốt cho các kì thi đại học sắp tới\.\n
+    </string>
+    <string name="help_content_test">      
+		\n\n\nKiểm Tra \n\n
+      1. Kiểm tra không ràng buộc về thời gian (off timer).\n
+      2. Kiểm tra có ràng buộc về thời gian (on timer).\n
+      3. Kiểm tra lại bộ đề vừa kiểm tra\.\n
+      3. Kiểm tra bộ đề từ danh sách lịch sử.\n</string>
+    <string name="help_content_cap_nhat_bo_de">    
+        \n\n\nCập nhật bộ đề\n\n
+     Mỗi lần khởi động ứng dụng, ứng dụng sẽ tự động cập nhật bộ đề mới nhất
+     khi điện thoại được kết nối internet\. </string>
+    <string name="help_content_cau_hinh">     
+		\n\n\nThiết Lập Cấu Hình\n\n
+     Chức năng này cho phép người dùng cài đặt các thông số cấu hình cho chức năng kiểm tra\.
+     1. Thay đổi số lượng câu hỏi bằng cách kéo thanh trượt ngang\.\n
+     2. Thay đổi thời gian cho mỗi câu hỏi\.\n
+     3. Thay đổi mức điểm đạt yêu cầu \.\n
+     4. Thay đổi ngôn ngữ ứng dụng\.\n
+     5. Bặt/Tắt chế độ tính thời gian khi kiểm tra\.\n
+     6. Chế độ mặc định sẽ trả về các thông số mặc định của hệ thống\.\n</string>
+    <!-- end help -->
+</resources>

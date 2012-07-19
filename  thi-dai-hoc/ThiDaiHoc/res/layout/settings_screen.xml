@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+    
+    <!-- Top layout -->
+    <RelativeLayout 
+        android:id="@+id/settings_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+            
+		    <TextView 
+		        android:id="@+id/settings_title"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/settings"
+		        android:textSize="22dp"
+		        android:textStyle="bold"
+		        android:textColor="@color/white"
+		        android:gravity="center"
+		        android:layout_centerInParent="true"
+		        />
+    </RelativeLayout>
+    <!-- End Top layout -->
+    
+    <!-- Content layout -->
+    <ScrollView 
+        android:id="@+id/settings_content_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_top_layout"
+        android:layout_margin="10dp"
+        android:scrollbars="vertical" >
+        <RelativeLayout 
+	        android:id="@+id/settings_bottom_layout"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dp" >
+			    <!-- Number of questions -->
+			    <TextView 
+			        android:id="@+id/settings_text_numberofquestions"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentLeft="true"
+			        android:text="@string/number_of_questions"
+			        android:layout_alignParentTop="true"
+			        android:gravity="left"
+			        />
+			    <TextView 
+			        android:id="@+id/settings_value_numberofquestions"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:layout_alignParentTop="true"
+			        android:layout_toRightOf="@id/settings_text_numberofquestions"
+			        android:text="@string/empty"
+			        android:gravity="right"
+			        />
+		        <SeekBar 
+		            android:id="@+id/settings_seekbar_numberofquestions"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@id/settings_text_numberofquestions"
+		            android:max="40"
+		            />
+		        <!-- End Number of questions -->
+		        
+		        <!-- Second per question -->
+		        <TextView 
+			        android:id="@+id/settings_text_secperquestion"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentLeft="true"
+			        android:text="@string/seconds_per_question"
+			        android:layout_below="@id/settings_seekbar_numberofquestions"
+			        android:gravity="left"
+			        android:layout_marginTop="10dp"
+			        />
+			    <TextView 
+			        android:id="@+id/settings_value_secperquestion"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:layout_below="@id/settings_seekbar_numberofquestions"
+			        android:layout_toRightOf="@id/settings_text_numberofquestions"
+			        android:text="@string/empty"
+			        android:gravity="right"
+			        android:layout_marginTop="10dp"
+			        />
+		        <SeekBar 
+		            android:id="@+id/settings_seekbar_secperquestions"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@id/settings_text_secperquestion"
+		            android:max="110"
+		            />
+		        <!-- End second per question -->
+		        
+		        <!-- Required score -->
+		        <TextView 
+			        android:id="@+id/settings_text_required_score"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentLeft="true"
+			        android:text="@string/pass_score"
+			        android:layout_below="@id/settings_seekbar_secperquestions"
+			        android:gravity="left"
+			        android:layout_marginTop="10dp"
+			        />
+			    <TextView 
+			        android:id="@+id/settings_value_required_score"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:layout_below="@id/settings_seekbar_secperquestions"
+			        android:layout_toRightOf="@id/settings_text_required_score"
+			        android:text="@string/empty"
+			        android:gravity="right"
+			        android:layout_marginTop="10dp"
+			        />
+		        <SeekBar 
+		            android:id="@+id/settings_seekbar_required_score"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@id/settings_text_required_score"
+		            android:max="60"
+		            />
+		        <!-- End Required score -->
+		        
+		        <!-- Timer -->
+		        <TextView 
+		            android:id="@+id/settings_text_timer"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/timer"
+		            android:layout_below="@id/settings_seekbar_required_score"
+		            android:layout_marginTop="10dp"
+		            android:layout_alignParentRight="true"
+		            />
+		        <ToggleButton 
+		            android:id="@+id/settings_toggle_btn_timer"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textOn="@string/on"
+		            android:textOff="@string/off"
+		            android:layout_alignParentRight="true"
+		            android:layout_below="@id/settings_text_timer"
+		            />
+		        <!-- End Timer -->
+		        
+		 
+		        
+		        <!-- Default -->
+		        <Button 
+		            android:id="@+id/settings_btn_default"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/set_default"
+		            android:textColor="@color/white"
+		            android:background="@drawable/btn_default"
+		            android:layout_below="@+id/settings_toggle_btn_timer"
+		            android:layout_centerHorizontal="true"
+		            android:layout_marginTop="20dp"
+		            />
+		        <!-- End Default -->
+	        
+	    </RelativeLayout>
+    </ScrollView>
+    
+    <!-- End Content layout -->
+
+</RelativeLayout>
