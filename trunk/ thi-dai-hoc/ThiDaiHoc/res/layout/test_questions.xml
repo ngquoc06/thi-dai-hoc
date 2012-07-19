@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutTop"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/question_bartop" >
+
+        <Button
+            android:id="@+id/question_button_Back"
+            android:layout_width="32sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dip"
+            android:background="@drawable/button_home_pressed" />
+
+        <TextView
+            android:id="@+id/question_textView_countDown"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/question_btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10sp"
+            android:layout_marginRight="3sp"
+            android:background="@drawable/button_finish_pressed"
+            android:onClick="onClickFinish" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/RelativeLayoutBottom"
+        android:layout_below="@+id/RelativeLayoutTop" >
+
+        <ViewFlipper
+            android:id="@+id/question_flipper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black" >
+        </ViewFlipper>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/question_bottom" >
+
+        <Button
+            android:id="@+id/btnQuestion_Previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="8dip"
+            android:background="@drawable/button_pre_pressed" />
+
+        <Button
+            android:id="@+id/btnQuestion_Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="8dip"
+            android:background="@drawable/button_next_pressed" />
+
+        <Button
+            android:id="@+id/btnQuestion_Pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dip"
+            android:background="@drawable/button_pause_pressed" />
+
+        <Button
+            android:id="@+id/btnQuestion_Play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dip"
+            android:background="@drawable/button_play_pressed" />
+    </RelativeLayout>
+
+</RelativeLayout>
